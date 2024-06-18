@@ -1,7 +1,7 @@
 @extends('theme')
 @section('content')
 <link rel="stylesheet" type="text/css" href="{{ URL::asset('assets/css/home.css'); }} ">
-<div class="home-container">
+<div class="home-container"> 
     <div class="hero-section">
         <img src="{{ URL::asset('assets/imgs/wallpaper.webp'); }}" alt="">
         <div class="manage-opacity"></div>
