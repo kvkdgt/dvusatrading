@@ -72,14 +72,223 @@
     font-size: 15px;
     text-align: justify;
 }
+.product-categories {
+    background-color: #f6f6f6;
+    padding: 60px;
+}
+.product-categories-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-category-content{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.svg-product svg {
+    height: 50% !important;
+    fill: #fff;
+}
+.product-title{
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 400;
+    color: #002840;
+}
+.svg-product {
+    background-color:#002840;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 10px;
+  width: 20%;
+}
+.product-detail {
+    font-family: 'Open Sans';
+    color: #777777;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+.contact-us {
+    display: flex;
+}
+.contact-us-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-us-heading {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+.contact-us-sub-heading {
+    color: #4d4d4d;
+}
+
+form {
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #4d4d4d;
+    font-family: "Poppins", sans-serif;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #002840;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.contact-us-container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+.contact-details-svg img{
+   width: 60%;
+   margin-bottom: 30px;
+}
+
+
+.contact-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form, .contact-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form p {
+    color: #666;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #002840;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #0c536c;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-info h2 {
+    color: #0c536c;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.contact-info p  {
+    margin: 0 !important;
+    color: #5b5959;
+    margin-bottom:20px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.contact-info .contact-details p, .social-media a {
+    margin: 5px 0;
+}
+.input-error {
+    border: 1px solid red !important;
+}
+.error {
+    color: red;
+    display: none;
+}
 @media only screen and (max-width: 768px) {
     .hero-text-sub-heading {
         display: none;
+    }
+    .section-heading{
+        font-size: 20px;
+    }
+    .product-category-content{
+        justify-content: center;
+        flex-direction: column;
     }
     .about-us-section {
         flex-direction: column;
         padding: 20px;
         align-items: center;
+    }
+    .product-category-item{
+        width: 100%;
+        margin-top: 20px;
     }
     .left-about-us, .right-about-us {
         width: 95%;
@@ -92,5 +301,36 @@
     }
     .section-heading-line{
         width: 25%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .contact-details-svg img {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    
+    .contact-form {
+        padding: 0;
+    }
+   
+
+    .contact-us-left-content {
+        display: none;
+    }
+    
+    .sub-heading-title {
+        width:100%
+    }
+
+    .contact-us-left {
+        width: 100%;
+    }
+
+    .contact-us {
+        flex-direction: column;
     }
  }
