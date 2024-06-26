@@ -270,9 +270,49 @@ input[type="submit"]:hover {
     color: red;
     display: none;
 }
+.contact-container-2 {
+    position: absolute;
+    top: -580px;
+}
+.header-hero-secondary {
+    /* background-image: linear-gradient(160deg, #2596be 0%, #79bedb 100%); */
+    background-color: #0c536c;
+}
+.blue-space {
+    height: 200px;
+}
+.white-space {
+    height: 350px;
+}
+.contact-wrapper-container{
+    position: relative;
+}
+.get-in-touch-text {
+    padding: 30px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.main-get-in-touch-text{
+    font-size: 24px;
+    
+    font-weight: 600;
+}
+.contact-in-about{
+    background-color: #bfd7df;
+    padding: 60px;
+    text-align: center;
+    font-size: 18px;
+}
 @media only screen and (max-width: 768px) {
     .hero-text-sub-heading {
         display: none;
+    }
+    .white-space {
+        height: 650px;
+    }
+    .contact-container-2 {
+        top: -900px;
     }
     .section-heading{
         font-size: 20px;

@@ -34,16 +34,16 @@
        <span class="logo-title">DV USA TRADING</span>
     </div>
     <div class="menus">
-        <a href="#"><div class="menu-item">Home</div></a>
-        <a href="#"><div class="menu-item">Products</div></a>
-        <a href="#"><div class="menu-item">About</div></a>
-        <a href="#"><div class="menu-item">Gallery</div></a>
+        <a href="/"><div class="menu-item">Home</div></a>
+        <a href="{{ route('/products')}}"><div class="menu-item">Products</div></a>
+        <a href="{{ route('/about-us')}}"><div class="menu-item">About</div></a>
+        <a href="{{ route('/gallery')}}"><div class="menu-item">Gallery</div></a>
     </div>
-   
+    <a href="{{ route('/contact-us')}}">
     <div class="contact-us-btn">
         <div class="contact-header-btn">CONTACT US</div>
     </div>
-
+</a>
     <div class="bars" id="bar-button">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="bar-icon"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
             <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
@@ -59,11 +59,11 @@
         </svg>
     </div>
     <div class="menus-sidebar">
-    <a href="#"><div class="menu-name-sidebar">HOME</div></a>
-    <a href="#"><div class="menu-name-sidebar">PRODUCTS</div></a>
-    <a href="#"><div class="menu-name-sidebar">ABOUT</div></a>
-    <a href="#"><div class="menu-name-sidebar">Gallery</div></a>
-    <a href="#"><div class="menu-name-sidebar">CONTACT US</div></a>
+    <a href="/"><div class="menu-name-sidebar">HOME</div></a>
+    <a href="{{ route('/products')}}"><div class="menu-name-sidebar">PRODUCTS</div></a>
+    <a href="{{ route('/about-us')}}"><div class="menu-name-sidebar">ABOUT</div></a>
+    <a href="{{ route('/gallery')}}"><div class="menu-name-sidebar">Gallery</div></a>
+    <a href="{{ route('/contact-us')}}"><div class="menu-name-sidebar">CONTACT US</div></a>
 
 
     </div>
@@ -95,10 +95,10 @@ session()->flush();
       <div class="footer-section">
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Gallery</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="{{ route('/products')}}">Products</a></li>
+          <li><a href="{{ route('/about-us')}}">Services</a></li>
+          <li><a href="{{ route('/gallery')}}">Gallery</a></li>
         </ul>
       </div>
       <div class="footer-section">

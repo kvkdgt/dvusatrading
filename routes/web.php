@@ -15,3 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/',[App\Http\Controllers\IndexController::class, 'home'])->name('/');
+Route::get('/contact-us',[App\Http\Controllers\IndexController::class, 'contact'])->name('/contact-us');
+Route::get('/about-us',[App\Http\Controllers\IndexController::class, 'about'])->name('/about-us');
+Route::get('/gallery',[App\Http\Controllers\IndexController::class, 'gallery'])->name('/gallery');
+Route::get('/products',[App\Http\Controllers\IndexController::class, 'products'])->name('/products');
+
+
+Route::get('/admin/login',[App\Http\Controllers\AdminController::class, 'login'])->name('login');
+Route::get('/admin/dashboard',[App\Http\Controllers\AdminController::class, 'index'])->name('admin/dashboard');
+
+
