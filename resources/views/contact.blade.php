@@ -1,12 +1,11 @@
 @extends('theme')
 @section('content')
-<link rel="stylesheet" type="text/css" href="{{ URL::asset('assets/css/home.css'); }} ">
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('assets/css/home.css'); }}">
 <div class="main-content-contact-us-form">
     <div class="header-hero-secondary">
         <div class="get-in-touch-text">
             <div class="main-get-in-touch-text">Get in Touch</div>
             <div class="sub-main-get-in-touch-text">Let's connect and brainstorm your amazing idea and make plan to execute your idea.</div>
-
         </div>
         <div class="blue-space"></div>
     </div>
@@ -19,10 +18,9 @@
                 <div class="contact-details-svg">
                     <img src="{{ URL::asset('imgs/contact.svg'); }}" alt="">
                 </div>
-
             </div>
             <div class="contact-form">
-                <form id="contactForm" method="POST" action="#">
+                <form id="contactForm" method="POST" action="{{ route('enquiry.store') }}">
                     @csrf
                     <input type="text" id="name" name="name" placeholder="Your Name" value="{{ old('name') }}">
                     <span class="error" id="nameError">Please enter your name</span>
@@ -38,7 +36,6 @@
 
                     <button type="submit">Send Message</button>
                 </form>
-
             </div>
         </div>
     </div>
@@ -52,7 +49,6 @@
         document.querySelectorAll('input, textarea').forEach(function(el) {
             el.classList.remove('input-error');
         });
-
 
         let valid = true;
 
@@ -93,20 +89,22 @@
         if (!valid) {
             event.preventDefault();
         }
-        function showSuccessMessage() {
-        document.getElementById('successMessage').style.display = 'block';
-    }
 
-    function closeSuccessMessage() {
-        document.getElementById('successMessage').style.display = 'none';
-    }
-           document.querySelectorAll('input, textarea').forEach(function(el) {
-        el.addEventListener('input', function() {
-            el.classList.remove('input-error');
-            const errorId = el.id + 'Error';
-            document.getElementById(errorId).style.display = 'none';
+        function showSuccessMessage() {
+            document.getElementById('successMessage').style.display = 'block';
+        }
+
+        function closeSuccessMessage() {
+            document.getElementById('successMessage').style.display = 'none';
+        }
+
+        document.querySelectorAll('input, textarea').forEach(function(el) {
+            el.addEventListener('input', function() {
+                el.classList.remove('input-error');
+                const errorId = el.id + 'Error';
+                document.getElementById(errorId).style.display = 'none';
+            });
         });
-    });
     });
 
     // Clear error messages on input change
@@ -125,6 +123,7 @@
     document.getElementById('message').addEventListener('input', function() {
         document.getElementById('messageError').style.display = 'none';
     });
+
     function showSuccessMessage() {
         document.getElementById('successMessage').style.display = 'block';
         setTimeout(function() {

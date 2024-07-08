@@ -30,7 +30,7 @@
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 15px;
 }
 .container2{

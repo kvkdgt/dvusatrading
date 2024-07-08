@@ -1,0 +1,198 @@
+.categories-container {
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+.warning-container{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    padding: 20px;
+}
+.warning-categories{
+    width: 100%;
+    background-color: #fff1cc;
+    padding: 10px 20px;
+    border: 1px solid #363636;
+    color:#363636;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.warning-container-msg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    padding-top: 10px !important;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    padding: 16px;
+    text-align: left;
+}
+th {
+    background-color: #0c536c;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #e9f6fb;
+}
+.add-category-btn {
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.description-column {
+    width: 450px; /* Adjust the width as per your design */
+    /* You can add more styling like overflow handling if needed */
+}
+.add-category-btn,
+button {
+    background-color: #0c536c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #084153;
+}
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    font-family: "Arial", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* backdrop-filter: blur(5px); */
+    padding-top: 60px;
+    transition: opacity 0.3s ease;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 30px;
+    border: none;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: transform 0.3s ease;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+.modal.show .modal-content {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.close {
+    color: #333;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+}
+
+#categoryForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#categoryForm label {
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+#categoryForm input,
+#categoryForm select,
+#categoryForm button {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+#categoryForm button {
+    background-color: #0c536c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#categoryForm button:hover {
+    background-color: #084153;
+}
+/* product form  */
+
+#productForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#productForm label {
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+#productForm input,
+#productForm select,
+#productForm button {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+#productForm button {
+    background-color: #0c536c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#productForm button:hover {
+    background-color: #084153;
+}
+
+

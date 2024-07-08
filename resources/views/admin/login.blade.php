@@ -41,7 +41,7 @@
             ?>
             <span class="signin-text">Sign In</span>
             <div class="login-form">
-                <form action="#" method="post">
+                <form action="{{ route('loginCheck') }}" method="post">
                     @csrf
                     <label for="username">Email</label>
                     <div class="username">

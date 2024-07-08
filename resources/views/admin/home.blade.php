@@ -4,20 +4,20 @@
 <div class="container">
     <div class="card card-up">
         <h2 class="label">Total Enquiries</h2>
-        <div class="count">10</div>
+        <div class="count">{{ $totalEnquiries }}</div>
     </div>
 
-    <div class="card card-up">
+    <!-- <div class="card card-up">
         <h2 class="label">Pending Enquiries</h2>
-        <div class="count">10</div>
+        <div class="count">{{ $pendingEnquiries }}</div>
     </div>
     <div class="card card-up">
         <h2 class="label">Seen Enquiries</h2>
-        <div class="count">10</div>
-    </div>
+        <div class="count">{{ $seenEnquiries }}</div>
+    </div> -->
     <div class="card card-up">
         <h2 class="label">Today's Enquiries</h2>
-        <div class="count">10</div>
+        <div class="count">{{ $todaysEnquiries }}</div>
     </div>
 
     <!-- Repeat similar HTML structure for more cards -->

@@ -14,10 +14,10 @@
                 </div>
                 <div class="section-heading-line"></div>
                 <div class="about-us-content-for-section">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                At DVUSA Trading, our mission is to lead the scrap trading industry through a relentless pursuit of excellence. We uphold our values of integrity, innovation, and sustainability at every step, ensuring that we not only meet but exceed the expectations of our global partners. By fostering trust and reliability, we have solidified our position as a preferred and respected entity in the marketplace. Our commitment to sustainable practices underscores our responsibility towards the environment and future generations, driving us to continually innovate and improve.
                 </div>
                 <div class="about-us-content-for-section">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Our mission at DVUSA Trading is to revolutionize the scrap trading landscape by delivering unparalleled service and reliability. We strive to create value for our clients and stakeholders while adhering to the highest standards of ethical business practices.
                 </div>
             </div>
         </div>

@@ -88,7 +88,7 @@ session()->flush();
     <footer>
     <div class="footer-container">
       <div class="footer-section">
-        <img src="{{ URL::asset('imgs/logo-light.png'); }}" alt="Logo" class="logo-footer">
+      <span class="logo-title" style="color:white">DV USA TRADING</span>
 
         <p>Contact us today for more information or book your Appointment today.</p>
       </div>
@@ -105,7 +105,7 @@ session()->flush();
         <h3>Contact Info</h3>
         <p>DV USA Trading Company</p>
         <p>Email: info@dvusatrading.com</p>
-        <p>Phone: +91 1234567890</p>
+        <p>Phone: +91 99787 98400</p>
       </div>
     </div>
   </footer>

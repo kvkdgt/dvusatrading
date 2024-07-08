@@ -30,18 +30,18 @@ body {
 }
 .active {
     background-color: #fff;
-    color: #002840;
+    color: #0c536c;
     border-radius: 10px;
 }
 .active svg {
-    fill: #002840;
+    fill: #0c536c;
     height: 16px;
 }
 .admin {
     display: flex;
 }
 .left-navbar {
-    background-color: #002840;
+    background-color: #0c536c;
     height: 100vh;
     width: 18%;
 }
@@ -57,7 +57,7 @@ body {
     width: 100%;
 }
 .header {
-    background-color: #002840;
+    background-color: #0c536c;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -84,7 +84,7 @@ body {
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #002840;
+    background: #0c536c;
     border-radius: 10px;
 }
 .section a{
@@ -109,12 +109,17 @@ body {
     height: 16px;
     fill: red;
 }
+.go-to-site {
+    background-color: #fff;
+    color: #0c536c;
+    padding: 15px 10px;
+}
 .logout-btn {
     display: flex;
     justify-content: center;
 }
 .left-navbar-mobile {
-    background-color: #002840;
+    background-color: #0c536c;
     width: 55%;
     position: absolute;
     height: 100vh;

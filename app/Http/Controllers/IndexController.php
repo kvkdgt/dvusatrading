@@ -3,12 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Category;
+use App\Models\Product;
 
 class IndexController extends Controller
 {
     public function home()
     {
-        return view('home');
+        $categories = Category::take(4)->get();
+        return view('home', ['categories' => $categories]);
     }
 
     public function contact()
@@ -29,7 +32,9 @@ class IndexController extends Controller
     }
     public function products()
     {
-        return view('products');
+        $products = Product::all();
+        $categories = Category::all();
+        return view('products', compact('products','categories'));
 
     }
 }
