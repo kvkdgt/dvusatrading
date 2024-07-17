@@ -25,6 +25,8 @@
     .gallery-item {
         position: relative;
         overflow: hidden;
+        border: 1px solid black;
+        border-radius: 10px;
     }
 
     .gallery-item img {
@@ -93,18 +95,16 @@
     </div>
 <div class="body">
     <div class="gallery">
-        <div class="gallery-item"><img src="https://picsum.photos/200?random=1" alt="Random Image 1" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200?random=2" alt="Random Image 2" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200?random=3" alt="Random Image 3" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200" alt="Random Image 4" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200" alt="Random Image 5" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200" alt="Random Image 6" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200?random=1" alt="Random Image 1" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200?random=2" alt="Random Image 2" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200?random=3" alt="Random Image 3" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200" alt="Random Image 4" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200" alt="Random Image 5" onclick="openModal(this)"></div>
-        <div class="gallery-item"><img src="https://picsum.photos/200" alt="Random Image 6" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://images.squarespace-cdn.com/content/v1/592afed29de4bbbc0b7f9eba/1496023760164-C9434BLFIL0JXZ4AMO98/image-asset.jpeg" alt="Random Image 1" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://www.shineikinzoku.co.jp/en/images/recycle-img01.png" alt="Random Image 2" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://www.nationalmaterial.com/wp-content/uploads/2020/08/Steel-and-recycling.jpg" alt="Random Image 3" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://www.actionmetalsrecyclers.com/wp-content/uploads/2021/11/advantages-recycling-scrap-metal-768x576.jpg" alt="Random Image 4" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz4z-TmzEUOj52R-ksa6zYtiEhECvYaLhv5w&s" alt="Random Image 5" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://us.123rf.com/450wm/grgroup/grgroup1403/grgroup140300529/26411792-eco-design-over-dotted-background-vector-illustration.jpg?ver=6" alt="Random Image 6" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://media.istockphoto.com/id/519134010/photo/scrap-metal.jpg?s=612x612&w=0&k=20&c=SCLKe-KCs-Q9gjw7yWDXDMOuOayVOqzWnGSpDv865hc=" alt="Random Image 1" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://hips.hearstapps.com/hmg-prod/images/scrap-metal-recycling-facility-royalty-free-image-1647017520.jpg?crop=0.670xw:1.00xh;0.0962xw,0&resize=640:*" alt="Random Image 2" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://gmk.center/wp-content/uploads/2021/09/shutterstock_1842562936.png" alt="Random Image 3" onclick="openModal(this)"></div>
+        <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Allegheny_Ludlum_Steel_Corp_Scrap_Piles.jpg" alt="Random Image 4" onclick="openModal(this)"></div>
         <!-- Add more images as needed -->
     </div>
 </div>

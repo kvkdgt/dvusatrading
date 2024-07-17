@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<div class="wtsp-floating">
+        <a href="https://api.whatsapp.com/send?phone=919978798400&text=" target="_blank"><img src="{{ URL::asset('assets/imgs/wtsp.png'); }}"  alt=""></a>
+    </div>
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DV USA Trading</title>
@@ -70,6 +73,7 @@
 </div>
 
 <body>
+
 <?php
 if (session()->has('success')) {
 ?>
@@ -83,8 +87,9 @@ if (session()->has('success')) {
 session()->flush();
 }
 ?>
-    @yield('content')
 
+    @yield('content')
+    
     <footer>
     <div class="footer-container">
       <div class="footer-section">
@@ -105,7 +110,8 @@ session()->flush();
         <h3>Contact Info</h3>
         <p>DV USA Trading Company</p>
         <p>Email: info@dvusatrading.com</p>
-        <p>Phone: +91 99787 98400</p>
+        <p>Phone 1: +91 99787 98400</p>
+        <p>Phone 2: +91 93755 50666</p>
       </div>
     </div>
   </footer>
